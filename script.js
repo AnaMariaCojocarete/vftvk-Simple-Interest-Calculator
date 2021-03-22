@@ -24,6 +24,6 @@ function slider_update()
 {
     var slider = document.getElementById("rate");
     var output = document.getElementById("display_rate");
-    output.innerHTML = slider.value;
+    output.innerHTML = slider.value +"%";
 }
         
